@@ -1,0 +1,61 @@
+
+        body {
+            cursor: default;
+            background-image: radial-gradient(circle, #b1d6fd, #cbdffe, #e1e8fe, #f2f3fe, #ffffff);
+        }    
+        li, ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 5%;
+        }
+
+        a.llevar-articulo:hover {
+            cursor: grab!important;
+        }
+        
+        .fa-minus-circle, .producto {
+            cursor: pointer;
+        }
+
+        .pasillo {
+            display: block;
+            width: 100%;
+            height: 75px;
+            /* margin-left: 5%; */
+            margin-bottom: 5%;
+            background-color: antiquewhite;
+        }
+
+        span.text-muted {
+            font-size: 25px;
+        }
+
+        .notificacion {
+            top: 16px;
+            left: 62px;
+            border: 4px solid transparent;
+            transition: all .4s ease-in-out;
+        }
+
+        .success {
+            border: 4px solid #4dff4d;
+            box-shadow: 0 0 1rem #33ff00!important;
+        }
+
+        .deleted {
+            border: 4px solid #ff8080;
+            box-shadow: 0 0 1rem #dc3545!important;
+        }
+
+        .footer {
+            background-color: #d9d9d9;
+            box-shadow: 0 .5rem 2.5rem rgba(0,0,0,2.15)!important
+        }
+
+        .header, .modal-header {
+            background-image: radial-gradient(circle, #1e62f3, #2e86fa, #3c94f8, #2e53f8, #3194e6);
+        }
+        
+        .modal-footer {
+            background-image: radial-gradient(circle, #cee6ff, #d2e8ff, #d6ebff, #dbedff, #dfefff);
+        }       
